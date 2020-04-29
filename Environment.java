@@ -24,8 +24,8 @@ public class Environment {
 	// values used for model based Dyna Q function
 	double learning_rate_mb = 0.3;
 	double discount_mb = 0.9;
-	double learning_rate_mb_int = 0.3;
-	double discount_mb_int = 0.99;
+	double learning_rate_mb_int = 0.5;
+	double discount_mb_int = 0.8;
 	int num_iterations_mb = 8000;
 	int num_fake_iterations = 50; //used inside main loop for Dyna Q algorithm
 	double epsilon_mb = .5;
